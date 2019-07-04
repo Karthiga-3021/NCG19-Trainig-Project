@@ -2,8 +2,7 @@
 
 Account Payable project deals with extraction of sensitive details from Invoice statement.
 
-IDE used: Eclipse Neon
-Language used: Java
+IDE used: Eclipse Neon;Language used: Java;
 Database used: Oracle SQL Developer
 
 
