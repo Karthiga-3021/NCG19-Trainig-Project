@@ -9,7 +9,7 @@ Database used: Oracle SQL Developer
 
 AccountPayableMain.java is the main class of this project. It invovke all the actions that are Recieve mail from user,parse the pdf,store the values into database,display the invoice details and user has to approve the invoice.
 
-ReceiveMailAttachment.java is the parent class of this project which receive invoice mail from the user and download it to loacl disk.
+ReceiveMailAttachment.java receive invoice mail from the user and download it to loacl disk.
 
 ExtractInvoiceData.java is the grand child class of ReceiveMailAttachment.java which extract\
           1) Invoice Number\
@@ -20,5 +20,5 @@ ExtractInvoiceData.java is the grand child class of ReceiveMailAttachment.java w
           6) Total Invoice\
 and status of this invoice statement. Those values are stored into database in table of INVOICE_INFO and display it.
 
-SendAcknowledgementMail.java is the child class of ReceiveMailAttachment.java which send an acknowledgement mail to the user as your invoice has been approved.  
+SendAcknowledgementMail.java send an acknowledgement mail to the user as your invoice has been approved.  
           
